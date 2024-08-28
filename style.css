@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-item a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.2s;
+}
+.nav-item a:hover{
+    color: rgb(20, 219, 20);
+    transform: translateY(3px);
+}
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+}
+.search{
+    height: 40px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background-color: rgb(20, 219, 20);
+    display: inline-block;
+}
+.btn1{
+    height: 40px;
+    background-color: rgb(20, 219, 20);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+}
+.btn1:hover{
+    background-color: rgb(16, 114, 16);
+}
+.fa-bag-shopping{
+    font-size: 25px;
+    padding-top: 6px;
+    color: rgb(138, 242, 138);
+    cursor: pointer;
+    transform: all 0.3s;
+}
+.fa-bag-shopping:hover{
+    color: rgb(20, 219, 20);
+}
+
+/* ***********main************ */
+.main{
+    background: url(images/m1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+}
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.main p:nth-child(2){
+    font-size:18px;
+    color: gray;
+}
+.mbtn1{
+    color: white;
+    height:50px;
+    width:25%;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    transform: all 0.3s;
+}
+.mbtn1:hover{
+    background-color: rgb(16, 114, 16);
+    font-weight: bold;
+}
+.mbtn2{
+    color: white;
+    height:50px;
+    width:25%;
+    border: none;
+    background-color:transparent;
+    color: rgb(20, 219, 20);
+    border-radius: 50px;
+    border: 1px solid rgb(20, 219, 20);
+    transform: all 0.3s;
+}
+.mbtn2:hover{
+    background-color: white;
+    font-weight: bold;
+}
+/* ============about============= */
+.about{
+    background: url(images/abut.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.about h1{
+    font-size: 5rem;
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.about p:nth-child(2){
+    font-size:18px;
+    color: gray;
+}
+
+
+/* =========================welcome========== */
+.welcome{
+    background: rgb(20, 219, 20);
+
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+.welcome h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.welcome span{
+    font-size: 50px;
+    color: rgb(20, 219, 20);
+}
+.cards{
+    transition: 0.2s ease-in-out;
+}
+.cards:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+/* ==========================product */
+
+.product h1{
+    font-size: 5rem;
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.product p:nth-child(2){
+    font-size:18px;
+    color: gray;
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20,219,20);
+    color: rgb(20,219,20);
+    background: transparent;
+    border-radius:50px ;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product .card{
+    border: none;
+    border-radius:0;
+    cursor: pointer;
+}
+.product .card-body{
+    border: 1px dashed rgb(215, 208, 208);
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.per1{
+    color: rgb(148, 148, 148);
+}
+/* .card:hover{
+    box-shadow: 0 0 5px black;
+} */
+ img{
+    transition: 0.2s ease;
+ }
+ img:hover{
+    transform: scale(1.1);
+ }
+ /* =================discount================= */
+ .discount{
+    background-color: rgb(20,219,20);
+    color: white;
+ }
+.dbtn{
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+}
+.dbtn:hover{
+    background-color: rgb(16, 114, 16);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 10px green;
+}
+.him{
+    font-size: 80px;
+    color: white;
+}
